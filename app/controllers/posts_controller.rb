@@ -1,4 +1,5 @@
 class PostsController < ApplicationController
+  #binding.pry
   def index
   	@posts = Post.all
   end
